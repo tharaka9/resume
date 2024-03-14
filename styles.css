@@ -1,0 +1,64 @@
+/* Custom Styles */
+body {
+    padding-top: 70px; /* Adjust for fixed navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 30px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #007bff; /* Timeline line color */
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    padding-left: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff; /* Timeline dot color */
+    left: 50%;
+    margin-left: -10px;
+    top: 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* Adjust background color */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .timeline:before {
+        left: 20px;
+    }
+    .timeline-item {
+        padding-left: 20px;
+    }
+    .timeline-item:before {
+        left: 0;
+    }
+}
