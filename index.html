@@ -1,102 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tharaka Bandara - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tharaka Bandara - Resume</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .resume-section {
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Tharaka Bandara</h1>
-        <p>Technical Operations Engineer</p>
-    </header>
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: lahirutharaka128@gmail.com</li>
-            <li>Contact: +94779875491</li>
-            <li>Address: Kadawatha, Sri Lanka</li>
-        </ul>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>BSc in Information Technology: 2018 - 2021, Sri Lanka Institute of Information Technology</li>
-            <li>Advanced Level (Technology): 2015, St. Thomas' College, Matale</li>
-        </ul>
-    </section>
-    <section id="personal-details">
-        <h2>Personal Details</h2>
-        <ul>
-            <li>Date of Birth: October 9, 1996</li>
-            <li>Nationality: Sri Lankan</li>
-            <li>Website: <a href="https://github.com/tharaka9" target="_blank">github.com/tharaka9</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/tharaka-bandara-62355810a" target="_blank">linkedin.com/in/tharaka-bandara-62355810a</a></li>
-        </ul>
-    </section>
-    <section id="technical-skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Scripting: Perl, Bash, PHP</li>
-            <li>Systems: Linux/Windows</li>
-            <li>Databases: Oracle DBMS, MySql</li>
-            <li>Networking: Troubleshooting, monitoring</li>
-            <li>Version Control: GitHub/Git Lab</li>
-            <li>Web Servers: LAMP Stack management</li>
-            <li>Project Management: Jira/Trello</li>
-        </ul>
-    </section>
-    <section id="learning-areas">
-        <h2>Learning Areas</h2>
-        <ul>
-            <li>Cloud Platforms: AWS, Azure (basic knowledge)</li>
-            <li>Containerization: Docker, Kubernetes (seeking hands-on experience)</li>
-        </ul>
-    </section>
-    <section id="employment-history">
-        <h2>Employment History</h2>
-        <div class="job">
-            <h3>Engineer - Technology (TechOps)</h3>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="text-center mb-4">
+          <h1 class="mb-0">Tharaka Bandara</h1>
+          <h4 class="mt-0">Technical Operations Engineer</h4>
+        </div>
+        
+        <!-- Profile Section -->
+        <div class="resume-section">
+          <h2>Profile</h2>
+          <ul class="list-unstyled">
+            <li><strong>Email:</strong> lahirutharaka128@gmail.com</li>
+            <li><strong>Contact:</strong> +94779875491</li>
+            <li><strong>Address:</strong> Kadawatha, Sri Lanka</li>
+          </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="resume-section">
+          <h2>Education</h2>
+          <p><strong>BSc in Information Technology:</strong> 2018 - 2021, Sri Lanka Institute of Information Technology</p>
+          <p><strong>Advanced Level (Technology):</strong> 2015, St. Thomas' College, Matale</p>
+        </div>
+
+        <!-- Personal Details Section -->
+        <div class="resume-section">
+          <h2>Personal Details</h2>
+          <ul class="list-unstyled">
+            <li><strong>Date of Birth:</strong> October 9, 1996</li>
+            <li><strong>Nationality:</strong> Sri Lankan</li>
+            <li><strong>Website:</strong> <a href="https://github.com/tharaka9">github.com/tharaka9</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tharaka-bandara-62355810a">linkedin.com/in/tharaka-bandara-62355810a</a></li>
+          </ul>
+        </div>
+
+        <!-- Technical Skills Section -->
+        <div class="resume-section">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li><strong>Scripting:</strong> Perl, Bash, PHP</li>
+            <li><strong>Systems:</strong> Linux/Windows</li>
+            <li><strong>Databases:</strong> Oracle DBMS, MySql</li>
+            <li><strong>Networking:</strong> Troubleshooting, monitoring</li>
+            <li><strong>Version Control:</strong> GitHub/Git Lab</li>
+            <li><strong>Web Servers:</strong> LAMP Stack management</li>
+            <li><strong>Project Management:</strong> Jira/Trello</li>
+          </ul>
+        </div>
+
+        <!-- Learning Areas Section -->
+        <div class="resume-section">
+          <h2>Learning Areas</h2>
+          <ul>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure (basic knowledge)</li>
+            <li><strong>Containerization:</strong> Docker, Kubernetes (seeking hands-on experience)</li>
+          </ul>
+        </div>
+
+        <!-- Employment History Section -->
+        <div class="resume-section">
+          <h2>Employment History</h2>
+          <div>
+            <h4>Engineer - Technology (TechOps)</h4>
             <p><strong>Duration:</strong> 09/2022 - Present</p>
             <p><strong>Company:</strong> Virtusa Pvt Ltd, Colombo, Sri Lanka</p>
-            <p><strong>Responsibilities:</strong></p>
             <ul>
-                <li>Provided Level 2 application support for the customer.</li>
-                <li>Investigated and resolved wholesale-billing customer issues.</li>
-                <li>Completed all allocated tickets on a daily basis.</li>
-                <li>Cleared system transaction errors and open orders.</li>
-                <li>Ensured compliance with SLAs and OLAs.</li>
-                <li>Provided 24/7 on-call support.</li>
+              <li>Provided Level 2 application support for the customer.</li>
+              <li>Investigated and resolved wholesale-billing customer issues.</li>
+              <li>Ensured compliance with SLAs and OLAs.</li>
+              <li>Provided 24/7 on-call support.</li>
             </ul>
+          </div>
+          <!-- Add other employment history items similarly -->
         </div>
-        <!-- Add other job experiences similarly -->
-    </section>
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
+
+        <!-- Languages Section -->
+        <div class="resume-section">
+          <h2>Languages</h2>
+          <ul>
             <li>Sinhala</li>
             <li>English</li>
-        </ul>
-    </section>
-    <section id="soft-skills">
-        <h2>Soft Skills</h2>
-        <ul>
+          </ul>
+        </div>
+
+        <!-- Soft Skills Section -->
+        <div class="resume-section">
+          <h2>Soft Skills</h2>
+          <ul>
             <li>Time Management</li>
             <li>Teamwork</li>
             <li>Documentation</li>
             <li>Communication</li>
             <li>Problem Solving</li>
-        </ul>
-    </section>
-    <section id="certificates">
-        <h2>Certificates</h2>
-        <ul>
+          </ul>
+        </div>
+
+        <!-- Certificates Section -->
+        <div class="resume-section">
+          <h2>Certificates</h2>
+          <ul>
             <li>IT Essentials course by Cisco Networking Academy, 2018</li>
             <li>Jira Fundamentals - Atlassian, 2022</li>
             <li>AWS Cloud Practitioner Essentials - Amazon Web Services, 2022</li>
-        </ul>
-    </section>
-    <script src="script.js"></script>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
